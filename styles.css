@@ -28,3 +28,36 @@ body {
     font-weight: bold;
     color: black;
 }
+
+.card {
+    position: center;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+#current-tempContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 240px;
+    width: 1200px;
+    border: 5px solid rgb(31, 82, 82);
+    border-radius: 10px;
+    color: whitesmoke;
+}
+
+.other {
+    display: inline-block;
+    float: left;
+    height: 200px;
+    width: 190px;
+    margin: 20px;
+    border: 5px solid rgb(48, 47,47);
+    border-radius: 10px;
+    color: whitesmoke;
+}
