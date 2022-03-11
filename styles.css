@@ -15,22 +15,27 @@ body {
     font-family: 'Noto Serif Display', serif;
 }
 
-#title {
+.title {
+    position: center;
     color: whitesmoke;
     font-weight: bold;
 }
 
-#cityInput, #cityName, #inputContainer, button {
-    margin: 3px;
-    padding: 5px;
-    text-align: left;
-    font-size: 20px;
-    font-weight: bold;
+.search-bar {
+    top: 30%;
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: whitesmoke;
     color: black;
+    font-family: inherit;
+    font-size: 105%;
+    width: 400px;
 }
 
 .card {
-    position: center;
+    position: absolute;
     padding: 2em;
     border-radius: 30px;
     width: 100%;
@@ -38,26 +43,5 @@ body {
     margin: 1em;
 }
 
-#current-tempContainer {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    height: 240px;
-    width: 1200px;
-    border: 5px solid rgb(31, 82, 82);
-    border-radius: 10px;
-    color: whitesmoke;
-}
 
-.other {
-    display: inline-block;
-    float: left;
-    height: 200px;
-    width: 190px;
-    margin: 20px;
-    border: 5px solid rgb(48, 47,47);
-    border-radius: 10px;
-    color: whitesmoke;
-}
+
