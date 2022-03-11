@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('img/moraine_lake_canadian_rockies-wallpaper-1600x900.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    font-family: 'Noto Serif Display', serif;
+}
+
+#title {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+#cityInput, #cityName, #inputContainer, button {
+    margin: 3px;
+    padding: 5px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
